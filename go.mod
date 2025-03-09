@@ -1,4 +1,4 @@
-module hexapi
+module github.com/gabystallo/go-hexagonal-api-base
 
 go 1.21.13
 

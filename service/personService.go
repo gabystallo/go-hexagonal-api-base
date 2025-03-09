@@ -1,8 +1,8 @@
 package service
 
 import (
-	"hexapi/domain"
-	"hexapi/dto"
+	"github.com/gabystallo/go-hexagonal-api-base/domain"
+	"github.com/gabystallo/go-hexagonal-api-base/dto"
 )
 
 //go:generate mockgen -destination=../mocks/service/mockPersonService.go -package=service . PersonService

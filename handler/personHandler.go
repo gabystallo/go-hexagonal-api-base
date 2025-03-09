@@ -3,11 +3,12 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-	"hexapi/dto"
-	"hexapi/service"
-	"hexapi/utils"
 	"net/http"
 	"strconv"
+
+	"github.com/gabystallo/go-hexagonal-api-base/dto"
+	"github.com/gabystallo/go-hexagonal-api-base/service"
+	"github.com/gabystallo/go-hexagonal-api-base/utils"
 
 	"github.com/gorilla/mux"
 )

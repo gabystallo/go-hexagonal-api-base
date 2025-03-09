@@ -3,14 +3,15 @@ package handler_test
 import (
 	"encoding/json"
 	"errors"
-	"hexapi/dto"
-	"hexapi/handler"
-	"hexapi/mocks/service"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
+
+	"github.com/gabystallo/go-hexagonal-api-base/dto"
+	"github.com/gabystallo/go-hexagonal-api-base/handler"
+	"github.com/gabystallo/go-hexagonal-api-base/mocks/service"
 
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"

@@ -2,8 +2,9 @@ package domain_test
 
 import (
 	"encoding/json"
-	"hexapi/domain"
 	"testing"
+
+	"github.com/gabystallo/go-hexagonal-api-base/domain"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/jmoiron/sqlx"

@@ -2,10 +2,11 @@ package service_test
 
 import (
 	"encoding/json"
-	"hexapi/domain"
-	mockdomain "hexapi/mocks/domain"
-	"hexapi/service"
 	"testing"
+
+	"github.com/gabystallo/go-hexagonal-api-base/domain"
+	mockdomain "github.com/gabystallo/go-hexagonal-api-base/mocks/domain"
+	"github.com/gabystallo/go-hexagonal-api-base/service"
 
 	"github.com/golang/mock/gomock"
 )

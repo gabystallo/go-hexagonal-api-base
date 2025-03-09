@@ -1,6 +1,6 @@
 package domain
 
-import "hexapi/dto"
+import "github.com/gabystallo/go-hexagonal-api-base/dto"
 
 type Person struct {
 	Id   int    `db:"id"`

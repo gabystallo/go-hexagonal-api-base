@@ -1,12 +1,13 @@
 package main
 
 import (
-	"hexapi/domain"
-	"hexapi/handler"
-	"hexapi/service"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/gabystallo/go-hexagonal-api-base/domain"
+	"github.com/gabystallo/go-hexagonal-api-base/handler"
+	"github.com/gabystallo/go-hexagonal-api-base/service"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
